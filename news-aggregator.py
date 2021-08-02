@@ -10,7 +10,6 @@ if hasattr(ssl, '_create_unverified_context'):
 url = 'https://thehill.com/rss/syndicator/19110'
 feed = feedparser.parse(url)
 
-
 print("The Hill — Most Popular\n")
 
 for entry in feed.entries:
